@@ -3,11 +3,6 @@ linux scripts and related items
 
 Dev machine is a 2017 Pixelbook i5, 8gb ram. 
 
-# 2.2.21-predev
-Quack is a linux distro initially built for Google's Crostini container on chromebooks.
-
-Dev machine is a 2017 Pixelbook i5, 8gb ram. 
-
 Update goals:
 
 	
