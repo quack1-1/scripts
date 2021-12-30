@@ -77,3 +77,14 @@ Sublime Text has problems with almost every theme without some in depth manually
 	yes im manually line breaking to avoid horizontal scrolling
 	
 I deleted the CrosAdapta theme (I only vaguely remember doing this, I'm going to be honest) but it seems the whole issue of using the default gtk theme instead of set one remains. Sometimes (primarily with Qt apps) apps will use chrome os' title bar (vscode and discord do this as well), other times they will use the default GTK theme (Would be CrosAdapta although it appears I successfully deleted it and now it goes to Adwaita. This is how firefox is behaving). I do not know how to change this, I thought it might be a GTK2 thing vs GTK3/GTK4 but it does not look like that is the case. ```Maybe I'll just keep removing themes from the system until it uses the one I want.```
+
+Attempting to rebuild off the default Debian 11 build rather than Ubuntu 21.10. Ubuntu boots with ~1900 packages compared to Debian's ~550.
+Have rebuilt on Debian bullseye but all the extra Ubuntu packages seem to help with package dependencies..
+	
+	
+	Debian build does have some noticeable performance improvememts but there seems to be an increase in 
+	gtk theme incompatibility and defaulting to CrosAdapta, which i dislike. 
+	Maybe I can find a minimal ubuntu install?/start disabling stuff until it breaks?
+	Optimizing ubuntu really seems more in reach than getting debian to work for me at my skill level..
+	Especially considering google uses the debian build as their official release of the crostini project, perhaps my goals
+	rely on breaking some google's "features". I'll reinstall tomorrow morning..
