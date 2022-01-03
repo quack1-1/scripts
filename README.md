@@ -8,30 +8,11 @@ Update goals:
 	
 	-auto updates
 	
-	-syntax wrapper
-	
 	-add parallel downloads for mass installs **implemented with apt-fast
 		remvoe the dialog spam when apt-fast is downloading packages
-	
-	-convert system scripts from python to cpp (unsure if this is really worth it. cpp is overall the better 
-	language to learn and use but many have said python is perfectly fine, which seems reasonable. 
-	Might just want to do this due to my own ignorance in coding still. I'm learning though)
-	
-	-leaning into cli programs
-	
-	-manually push newest linux kernel beyond what ubuntu has provided (5.14 MAYBE 5.15)
-	
-	-get theme with no errors working and proper border outlines **changed to theme Ant/Ant-Nebula
-	
-	-get auto setup scripts working
-	
-	-get one time install instructions ironed out
-	
-	-get auto backup/restore
-	
 
 Development Updates:
-12.14.21 attempting to push kernel version 5.15.x stable
+12.14.21 attempting to push kernel version 5.15.x stable ```appears locked due to Google's custom kernel```
 ```
 wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.15.8/amd64/linux-headers-5.15.8-051508_5.15.8-051508.202112141040_all.deb
 wget -c https://kernel.ubuntu.com/~kernel-ppa/mainline/v5.15.8/amd64/linux-headers-5.15.8-051508-generic_5.15.8-051508.202112141040_amd64.deb
@@ -88,3 +69,11 @@ Have rebuilt on Debian bullseye but all the extra Ubuntu packages seem to help w
 	Optimizing ubuntu really seems more in reach than getting debian to work for me at my skill level..
 	Especially considering google uses the debian build as their official release of the crostini project, perhaps my goals
 	rely on breaking some google's "features". I'll reinstall tomorrow morning..
+
+Attempting to update to Ubuntu 22.04 nightly builds. No idea how stable it will be but why not..
+```
+sudo apt-get install update-manager-core
+```
+```
+sudo do-release-upgrade -d
+```
