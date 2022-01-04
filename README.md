@@ -5,6 +5,7 @@ Dev machine is a 2017 Pixelbook i5, 8gb ram.
 
 Update goals:
 
+	Adding automated install?!! (please god, installing these is becoming such a pain)
 	
 	-auto updates
 	
