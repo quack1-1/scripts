@@ -1,4 +1,4 @@
-Update log for Ubuntu Crostini project
+# Update log for Ubuntu Crostini project
 
 Dev machine is a 2017 Pixelbook i5, 8gb ram. 
 
