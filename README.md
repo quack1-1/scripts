@@ -27,9 +27,9 @@ lxc rename penguin debian
 ```
 This will free up the name penguin for your new ubuntu container. This is important (as far as im aware) to allow chrome os' file system to integrate into linux's.
 ```
-lxc launch ubuntu:18.04 penguin 
+lxc launch ubuntu:21.1o penguin 
 ```
-This will create a new container named penguin and download/install the Ubuntu 18.04 image onto it. ```I'm unsure why, but it does not seem to like going straight to 21.04 despite it appearing like it's working. I've only been successful doing a system upgrade after installation.```
+This will create a new container named penguin and download/install the Ubuntu 21.10 image onto it.
 ```
 lxc exec penguin -- bash
 ```
